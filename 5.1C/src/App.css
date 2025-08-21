@@ -1,0 +1,120 @@
+:root {
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.sub {
+  color: #666;
+  margin-top: -10px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.form {
+  display: grid;
+  gap: 8px;
+}
+
+.label {
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.row {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.primary {
+  background: #2563eb;
+  color: #fff;
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.hint {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.preview {
+  background: #f9fafb;
+  border: 1px dashed #e5e7eb;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.pre {
+  white-space: pre-wrap;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.chip {
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 16px;
+  padding: 4px 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chip-x {
+  background: none;
+  border: none;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 4px 8px;
+}
